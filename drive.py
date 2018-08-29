@@ -44,7 +44,9 @@ class SimplePIController:
 
 
 controller = SimplePIController(0.1, 0.002)
-set_speed = 9
+#set_speed = 9 # original 9
+set_speed = 9# 25 gives 30 mph?
+
 controller.set_desired(set_speed)
 
 
@@ -60,6 +62,23 @@ def telemetry(sid, data):
         # The current image from the center camera of the car
         imgString = data["image"]
         image = Image.open(BytesIO(base64.b64decode(imgString)))
+        ## adding a simialr line from https://github.com/liferlisiqi/Bebavioral-Cloning/blob/master/drive.py line 64
+        #   # resize: (160, 320) -> (80, 80)
+        #  image = image.resize((80, 80),Image.ANTIALIAS)
+        # I will crop instead of resize
+        #https://stackoverflow.com/questions/9983263/crop-the-image-using-pil-in-python
+        # image = image[70:135, 0:320]#hoping this crop here will work,,, this is from my clone file to crop
+        
+         #area = (400, 400, 800, 800)
+        #cropped_img = img.crop(area)
+        area = (0,70, 320, 135)#dims might be off XY versus row and cols
+        image = image.crop(area)
+        
+        #grayscale
+        #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) #similar to clone.py grayscale
+    
+        
+        
         image_array = np.asarray(image)
         steering_angle = float(model.predict(image_array[None, :, :, :], batch_size=1))
 
