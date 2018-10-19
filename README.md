@@ -6,7 +6,7 @@
 # **Project Report**
 **My Original Report in pdf format as submitted to Udacity for review.**
 **I refer to the report in the video, its 15 pages long with still images of the videos.**
-**Left Click the link to view online or Right Click the link to download a pdf.** [ Report Link](/john-reilly/Self_Driving_Car_Nano_Degree_Project_3_Behavioral_Cloning/Project%203%20Behaviour%20Cloning%20Report.pdf)
+**Left Click the link to view online or Right Click the link to download a pdf.** [ Report Link](https://github.com/john-reilly/Self_Driving_Car_Nano_Degree_Project_3_Behavioral_Cloning/blob/master/Project%203%20Behaviour%20Cloning%20Report.pdf)
 
 
 # **Project Feedback**
