@@ -10,16 +10,42 @@
 
 
 # **Project Feedback**
-**Below are 2 screenshots showing the feedback from the Udacity reviewer**
+**Below are 6 screenshots showing the feedback from the Udacity reviewer**
+**3 screenshots are from the first attempt and 3 from second**
+
+First Attempt:
 
 
-<img src="/Project_1_Feedback_1.PNG" width="900" alt="Feedback screenshot 1" />
+<img src="/Project_3_Feedback_1.PNG" width="900" alt="Feedback screenshot 1" />
 
 
 ---
 
+<img src="/Project_3_Feedback_2.PNG" width="900" alt="Feedback screenshot 2" />
 
-<img src="/Project_1_Feedback_2.PNG" width="900" alt="Feedback screenshot 2" />
+
+---
+<img src="/Project_3_Feedback_3.PNG" width="900" alt="Feedback screenshot 3" />
+
+
+---
+
+Second Attempt:
+
+
+<img src="/Project_3_Feedback_4_Resubmission.PNG" width="900" alt="Feedback screenshot 4" />
+
+
+---
+<img src="/Project_3_Feedback_5_Resubmission.PNG" width="900" alt="Feedback screenshot 5" />
+
+
+---
+<img src="/Project_3_Feedback_6_Resubmission.PNG" width="900" alt="Feedback screenshot 6" />
+
+
+---
+
 
 # If you want to run the code please refer to the links below
 
