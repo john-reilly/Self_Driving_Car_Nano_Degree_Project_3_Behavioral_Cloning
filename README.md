@@ -6,6 +6,7 @@
 # **Project Report**
 **My Original Report in pdf format as submitted to Udacity for review.**
 **I refer to the report in the video, its 15 pages long with still images of the videos.**
+
 **Left Click the link to view online or Right Click the link to download a pdf.** [ Report Link](https://github.com/john-reilly/Self_Driving_Car_Nano_Degree_Project_3_Behavioral_Cloning/blob/master/Project%203%20Behaviour%20Cloning%20Report.pdf)
 
 
@@ -56,7 +57,7 @@ The program is in [Python 3](https://www.python.org/) running in a [Jupyter Note
 
 You can use the below conda environment to make sure all dependencies etc are present.
 
-PLEASE NOTE : my repo alone is not enough to get this working as shown, you will need the car simulator and some other files to get it working as shown in the above Presentation Video
+**_PLEASE NOTE : my repo alone is not enough to get this working as shown, you will need the car simulator and some other files to get it working as shown in the above Presentation Video_**
 
 
 Clone the Udacity project repo below, download my notebook and run in the same folder 
